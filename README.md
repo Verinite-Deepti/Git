@@ -49,42 +49,43 @@ git log
 
 **List all branches**
 
--git branch
+git branch
 
-*Create a new branch*
+**Create a new branch**
 git branch <branch-name>
 
-*Switch to a different branch*
+**Switch to a different branch**
 git checkout <branch-name>
 
-*Create and switch to a new branch*
+**Create and switch to a new branch**
 git checkout -b <branch-name>
 
-*Delete a branch*
+**Delete a branch**
 git branch -d <branch-name>
 
-Staging and Committing
-*Stage a specific file*
+# Staging and Committing
+
+**Stage a specific file**
 git add <file-name>
 
-*Stage multiple files*
+**Stage multiple files**
 git add <file1> <file2> <file3>
 
-*Stage all changes in the current directory*
+**Stage all changes in the current directory**
 git add .
 
-*Stage all changes in the repository*
+**Stage all changes in the repository**
 git add -A
 
-*Unstage a specific file*
+**Unstage a specific file**
 git reset <file-name>
 
-*Unstage all changes*
+**Unstage all changes**
 git reset
 
-*Commit staged changes with a message*
+**Commit staged changes with a message**
 git commit -m "Your commit message"
 
-*Commit with a detailed message*
+**Commit with a detailed message**
 git commit
 
