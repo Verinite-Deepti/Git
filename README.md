@@ -33,16 +33,20 @@ git config --list
 
 # Basic Commands
 
-*Initialize a new Git repository*
+**Initialize a new Git repository**
+
 git init
 
-*Clone an existing repository*
+**Clone an existing repository**
+
 git clone <repository-url>
 
-*Check the status of your working directory*
+**Check the status of your working directory**
+
 git status
 
-*View the commit history*
+**View the commit history**
+
 git log
 
 # Branching
