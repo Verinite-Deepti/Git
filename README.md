@@ -47,8 +47,9 @@ git log
 
 # Branching
 
-- **List all branches**
-git branch
+**List all branches**
+
+-git branch
 
 *Create a new branch*
 git branch <branch-name>
